@@ -1,7 +1,7 @@
 As the name suggests, this is called a mini facebook, it allows users to uplod posts and, the friends of the users can view the posts.  
 
 In this project, I used prepared statement, input sanitization, and haven’t trusted the user that the user will give proper inputs in 
-the input fields. By keeping this mind, I prepared my code against XSS, SQLi, CSRF attacks. 
+the input fields. By keeping this mind, I prepared my code against XSS, SQLi, CSRF attacks. To login the users need to create a userID and Password.
 
 Multiple layers of security measures are implemented, such as input validation, prepared statements, and session management, ensuring 
 that if one layer is breached, there are  additional layers to mitigate the risk.  Security measures are implemented across various 
